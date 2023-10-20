@@ -36,7 +36,7 @@ function App() {
 	]
 
 	return (
-		<div className="flex">
+		<div className="flex justify-center mt-3">
 			<Score score={77} rank={"Great"} percentile={65} />
 			<Summary categories={categories} />
 		</div>

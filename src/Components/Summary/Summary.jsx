@@ -1,7 +1,7 @@
 
 function Summary({categories}){
 	return (
-		<div class="border-solid border-2 border-sky-500 shadow-2xl rounded-xl">
+		<div class="border-solid border-2 border-sky-500 shadow-2xl rounded-2xl flex flex-col">
 			<h2 className="font-bold text-slate-700">Summary</h2>
 			{categories.map((category, index)=>(
 				<div className={category.backgroundColor } key={index}>
@@ -9,7 +9,7 @@ function Summary({categories}){
 					<span className={category.textColor}>{category.category}</span>: <span className="font-bold text-slate-600">{category.score}</span><span className="text-gray-700"> / 00</span>
 				</div>
 			))}
-			<button className="bg-gray-700 text-white rounded-md">Continue</button>
+			<button className="bg-gray-700 text-white rounded-md items-center">Continue</button>
 		</div>
 	)
 }

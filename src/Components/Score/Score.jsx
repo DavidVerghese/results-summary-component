@@ -2,7 +2,7 @@ function Score({score,rank, percentile}){
 	return (
 		//<div className="bg-gradient-to-r from-indigo-600 to-indigo-500 ...">
 
-		<div className="bg-gradient-to-r from-indigo-800 via-indigo-600 to-indigo-800 text-white shadow-2xl rounded-xl">
+		<div className="bg-gradient-to-r from-indigo-800 via-indigo-600 to-indigo-800 text-white shadow-2xl rounded-2xl flex flex-col items-center">
 			<h2 className="font-bold text-slate-200">Your result</h2>
 			<h2 className="bg-indigo-900 text-white rounded-full h-20 w-20 text-center">{score} out of 100</h2>
 			<p>{rank}</p>
