@@ -1,7 +1,7 @@
 
 function Summary({categories}){
 	return (
-		<div class="border-solid border-2 border-sky-500 shadow-2xl rounded-2xl flex flex-col p-5">
+		<div class="shadow-2xl rounded-2xl flex flex-col p-8">
       <h2 className="font-bold text-slate-700">Summary</h2>
       <div className="my-4">
           {categories.map((category, index)=>(
@@ -11,7 +11,7 @@ function Summary({categories}){
             </div>
           ))}
       </div>
-			<button className="bg-gray-700 text-white rounded-md items-center">Continue</button>
+			<button className="bg-gray-700 text-white rounded-lg items-center p-1">Continue</button>
 		</div>
 	)
 }
