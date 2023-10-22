@@ -2,7 +2,7 @@
 function Summary({categories}){
 	return (
 		<div class="shadow-2xl rounded-2xl flex flex-col p-8">
-      <h2 className="font-extrabold text-slate-700">Summary</h2>
+      <h2 className="font-extrabold text-slate-700 text-xl">Summary</h2>
       <div className="my-4">
           {categories.map((category, index)=>(
             <div className={`${category.backgroundColor} p-2 my-2 rounded-lg`} key={index}>
