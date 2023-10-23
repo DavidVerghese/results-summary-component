@@ -1,9 +1,9 @@
 
 function Summary({categories}){
 	return (
-    <div className="py-8 px-2 w-full max-w-sm">
+    <div className="sm:py-8 px-2 w-full max-w-sm">
       <div className="shadow-2xl rounded-2xl flex flex-col p-6">
-        <h2 className="font-extrabold text-slate-700 text-xl">Summary</h2>
+        <h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
         <div className="my-4">
             {categories.map((category, index)=>(
               <div className={`${category.backgroundColor} p-2 my-2 rounded-lg`} key={index}>
@@ -12,7 +12,7 @@ function Summary({categories}){
               </div>
             ))}
         </div>
-        <button className="bg-gray-700 text-white rounded-full items-center p-2">Continue</button>
+        <button className="bg-gray-700 text-white rounded-full items-center p-2 my-2">Continue</button>
       </div>
     </div>
 	)
