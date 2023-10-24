@@ -4,7 +4,13 @@ module.exports = {
 	  "./src/**/*.{js,jsx,ts,tsx}",
 	],
 	theme: {
-	  extend: {},
+	  extend: {
+		colors: {
+		},
+		backgroundImage: {
+			'indigo-gradient': "linear-gradient(to right, #4f46e5, #4338ca, #4f46e5)",
+		}
+	  },
 	},
 	plugins: [],
   }
