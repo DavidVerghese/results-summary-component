@@ -12,7 +12,7 @@ return (
 					</div>
 				))}
 			</div>
-			<button className="bg-gray-700 hover:bg-gradient-to-r from-indigo-800 via-indigo-600 to-indigo-800 text-white rounded-full items-center p-2 my-2">Continue</button>
+			<button className="bg-gray-700 hover:bg-gradient-to-r from-indigo-900 via-indigo-600 to-indigo-900 text-white rounded-full items-center p-2 my-2">Continue</button>
 		</div>
 	</div>
 )
