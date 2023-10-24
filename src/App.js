@@ -37,7 +37,7 @@ function App() {
 
 	return (
 		<div className="flex justify-center sm:mt-5">
-			<div className="flex flex-col sm:flex-row sm:rounded-2xl shadow-2xl">
+			<div className="flex flex-col sm:flex-row sm:rounded-2xl shadow-2xl max-sm:w-full">
 				<Score score={77} rank={"Great"} percentile={65} />
 				<Summary categories={categories} />
 			</div>
