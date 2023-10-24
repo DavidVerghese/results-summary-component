@@ -8,7 +8,8 @@ module.exports = {
 		colors: {
 		},
 		backgroundImage: {
-			'indigo-gradient': "linear-gradient(to right, #4f46e5, #4338ca, #4f46e5)",
+			'indigo-gradient': "linear-gradient(to right, rgb(55 48 163), rgb(79 70 229), rgb(55 48 163))",
+			"indigo-gradient-dark": "linear-gradient(to right, rgb(49 46 129), rgb(55 48 163), rgb(49 46 129))"
 		}
 	  },
 	},
