@@ -1,7 +1,7 @@
 
 function Summary({categories}){
 return (
-	<div className="pl-5 pr-3 w-full max-w-sm">
+	<div className="sm:pl-5 pl-3 pr-3 w-full max-w-sm">
 		<div className="flex flex-col">
 			<h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
 			<div className="my-4">
