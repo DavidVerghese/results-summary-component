@@ -1,8 +1,8 @@
 
 function Summary({categories}){
 return (
-	<div className="sm:py-8 px-2 w-full max-w-sm">
-		<div className="shadow-2xl rounded-2xl flex flex-col p-6">
+	<div className="pl-5 pr-3 w-full max-w-sm">
+		<div className="flex flex-col">
 			<h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
 			<div className="my-4">
 				{ categories.map((category, index)=>(

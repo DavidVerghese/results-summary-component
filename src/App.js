@@ -36,9 +36,11 @@ function App() {
 	]
 
 	return (
-		<div className="flex flex-col sm:flex-row sm:justify-center max-sm:items-center mt-3">
-			<Score score={77} rank={"Great"} percentile={65} />
-			<Summary categories={categories} />
+		<div className="flex justify-center mt-5">
+			<div className="flex flex-col sm:flex-row rounded-2xl shadow-2xl">
+				<Score score={77} rank={"Great"} percentile={65} />
+				<Summary categories={categories} />
+			</div>
 		</div>
 	);
 }
