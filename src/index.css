@@ -2,13 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Hanken Grotesk Medium;
+  src: url(HankenGrotesk-Medium.ttf);
+}
+
+@font-face {
+  font-family: Hanken Grotesk Bold;
+  src: url(HankenGrotesk-Bold.ttf);
+}
+
+@font-face {
+  font-family: Hanken Grotesk Extra Bold;
+  src: url(HankenGrotesk-ExtraBold.ttf);
+}
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Hanken Grotesk Medium, Hanken Grotesk Bold, Hanken Grotesk Extra Bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  font-family: Hanken Grotesk Bold;
+}
+p {
+  font-family: Hanken Grotesk Medium;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
