@@ -5,8 +5,9 @@ module.exports = {
 	],
 	theme: {
 	  extend: {
-		colors: {
-		},
+			colors: {
+				'light-red': 'hsl(0, 100%, 67%)'
+			},
 		backgroundImage: {
 			'indigo-gradient': "linear-gradient(to right, rgb(55 48 163), rgb(79 70 229), rgb(55 48 163))",
 			"indigo-gradient-dark": "linear-gradient(to right, rgb(49 46 129), rgb(55 48 163), rgb(49 46 129))"

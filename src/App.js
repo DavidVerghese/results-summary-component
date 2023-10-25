@@ -9,7 +9,7 @@ function App() {
 			"category": "Reaction",
 			"score": 80,
 			"backgroundColor" : "bg-red-300/25",
-			"textColor": "font-bold text-red-800/70",
+			"textColor": "font-bold text-light-red",
 			"icon": "assets/images/icon-reaction.svg"
 		},
 		{
