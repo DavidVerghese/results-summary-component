@@ -11,6 +11,8 @@
 	- [What I learned](#what-i-learned)
 - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Contributing](#contributing)
+- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -36,6 +38,8 @@ Clone down this repo. In your command line interface, run
 npm i
 npm start
 ```
+
+## My Process
 
 ### Built with
 
@@ -63,3 +67,6 @@ Pull requests are welcome.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Acknowledgments
+
+I'd like to thank @artimys for introducing me to Frontend Mentor and helping me complete this challenge.
