@@ -69,4 +69,4 @@ Pull requests are welcome.
 
 ## Acknowledgments
 
-I'd like to thank [Arty](https://github.com/artimys) for introducing me to Frontend Mentor and helping me complete this challenge.
+I'd like to thank my manager [Arty](https://github.com/artimys) for introducing me to Frontend Mentor and helping me complete this challenge.
