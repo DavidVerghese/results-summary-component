@@ -25,10 +25,10 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 Desktop View
 
-![desktop view](/Desktop.png)
+![desktop view](Desktop.png)
 Mobile View
 
-![mobile view](/Mobile.png)
+![mobile view](Mobile.png)
 
 
 ### The challenge
