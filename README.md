@@ -23,6 +23,14 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
+Desktop View
+
+![desktop view](/Desktop.png)
+Mobile View
+
+![mobile view](/Mobile.png)
+
+
 ### The challenge
 
 Users should be able to:
@@ -69,4 +77,4 @@ Pull requests are welcome.
 
 ## Acknowledgments
 
-I'd like to thank my manager [Arty](https://github.com/artimys) for introducing me to Frontend Mentor and helping me complete this challenge.
+I'd like to thank my manager [Arty](https://github.com/artimys) for introducing me to Frontend Mentor and helping me to complete this challenge.
