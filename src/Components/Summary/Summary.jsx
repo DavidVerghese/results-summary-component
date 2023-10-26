@@ -9,7 +9,7 @@ return (
 					<div className={`flex justify-between ${category.backgroundColor} p-2 my-3 rounded-lg`} key={index}>
 						<div>
 							<img className="inline pr-2" src={category.icon} />
-							<span className={ category.textColor }>{ category.category }</span>:
+							<span className={ category.textColor }>{ category.category }</span>
 						</div>
 						<div>
 							<span className="font-bold text-slate-600">{ category.score }</span><span className="text-slate-600"> / 100</span>
@@ -17,7 +17,7 @@ return (
 					</div>
 				))}
 			</div>
-			<button className="bg-gray-700 hover:bg-indigo-gradient text-white rounded-full items-center p-2 my-2">Continue</button>
+			<button className="bg-dark-gray-blue hover:bg-background-gradient text-white rounded-full items-center p-2 my-2">Continue</button>
 		</div>
 	</div>
 )

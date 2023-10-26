@@ -22,6 +22,8 @@ body {
   font-family: Hanken Grotesk Medium, Hanken Grotesk Bold, Hanken Grotesk Extra Bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white;
+  font-size: 18px;
 }
 
 h2 {
