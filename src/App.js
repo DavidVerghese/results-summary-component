@@ -9,28 +9,28 @@ function App() {
 			"category": "Reaction",
 			"score": 80,
 			"backgroundColor" : "bg-red-300/20",
-			"textColor": "font-bold text-light-red",
+			"textColor": "text-light-red",
 			"icon": "assets/images/icon-reaction.svg"
 		},
 		{
 			"category": "Memory",
 			"score": 92,
 			"backgroundColor" : "bg-yellow-200/20",
-			"textColor": "font-bold text-orangey-yellow",
+			"textColor": "text-orangey-yellow",
 			"icon": "assets/images/icon-memory.svg"
 		},
 		{
 			"category": "Verbal",
 			"score": 61,
 			"backgroundColor" : "bg-green-200/25",
-			"textColor": "font-bold text-green-teal",
+			"textColor": "text-green-teal",
 			"icon": "assets/images/icon-verbal.svg"
 		},
 		{
 			"category": "Visual",
 			"score": 72,
 			"backgroundColor" : "bg-pale-blue",
-			"textColor": "font-bold text-cobalt-blue",
+			"textColor": "text-cobalt-blue",
 			"icon": "assets/images/icon-visual.svg"
 		}
 	]

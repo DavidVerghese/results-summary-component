@@ -21,24 +21,24 @@
 }
 
 body {
-  margin: 0;
-  font-family: Hanken Grotesk Medium, Hanken Grotesk Bold, Hanken Grotesk Extra Bold;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: white;
-  font-size: 18px;
+	margin: 0;
+	font-family: Hanken Grotesk Medium, Hanken Grotesk Bold, Hanken Grotesk Extra Bold;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: white;
+	font-size: 18px;
 }
 
 h1 {
-  font-family: Hanken Grotesk Extra Bold;
+	font-family: Hanken Grotesk Extra Bold;
 }
 h2 {
-  font-family: Hanken Grotesk Bold;
+	font-family: Hanken Grotesk Bold;
 }
 p {
-  font-family: Hanken Grotesk Medium;
+	font-family: Hanken Grotesk Medium;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
