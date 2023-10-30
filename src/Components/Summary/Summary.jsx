@@ -8,8 +8,8 @@ return (
 				{ categories.map((category, index)=>(
 					<div className={`flex justify-between ${category.backgroundColor} p-2 my-3 rounded-lg text-base`} key={index}>
 						<div>
-							<img className="inline pr-2" src={category.icon} />
-							<span className={ `${category.textColor}` }>{ category.category }</span>
+							<img alt="category icon" className="inline pr-2" src={category.icon} />
+							<span className={ `font-bold ${category.textColor}` }>{ category.category }</span>
 						</div>
 						<div>
 							<span className="font-bold text-slate-600">{ category.score }</span><span className="text-slate-600"> / 100</span>
