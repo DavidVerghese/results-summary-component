@@ -4,19 +4,19 @@
 
 @font-face {
   font-family: Hanken Grotesk Medium;
-  src: url(HankenGrotesk-Medium.ttf);
+  src: url(/public/assets/fonts/HankenGrotesk-Medium.ttf);
   font-display: swap;
 }
 
 @font-face {
   font-family: Hanken Grotesk Bold;
-  src: url(HankenGrotesk-Bold.ttf);
+  src: url(/public/assets/fonts/HankenGrotesk-Bold.ttf);
   font-display: swap;
 }
 
 @font-face {
   font-family: Hanken Grotesk Extra Bold;
-  src: url(HankenGrotesk-ExtraBold.ttf);
+  src: url(/public/assets/fonts/HankenGrotesk-ExtraBold.ttf);
   font-display: swap;
 }
 

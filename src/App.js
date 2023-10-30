@@ -1,8 +1,18 @@
 import './App.css';
 import Score from './Components/Score/Score';
 import Summary from './Components/Summary/Summary';
+import { useState, useEffect } from 'react';
 
 function App() {
+
+	// const [text, setText] = useState('');
+
+	// useEffect(() => {
+	// 	fetch('/public/assets/fonts/HankenGrotesk-Medium.ttf')
+	// 		.then(response =>  response.text())
+	// 		.then(data => setText(data));
+	// 	},
+	// []);
 
 	const categories = [
 		{
