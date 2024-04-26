@@ -1,10 +1,18 @@
-function Summary({categories}){
+import { useEffect, useState } from 'react';
+
+function Summary({ categoriesData }){
+  const [categories, setCategories] = useState([]);
+
+  useEffect(()=>{
+    setCategories(categoriesData)
+  }, [categoriesData]);
+
   return (
     <div className="sm:pl-5 pl-3 pr-3 w-full sm:max-w-sm">
       <div className="flex flex-col sm:pt-8">
         <h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
         <div className="my-4">
-          { categories.map((category, index)=>(
+          { categories && categories.length > 0 && categories.map((category, index)=>(
             <div className={ `flex justify-between ${ category.backgroundColor } p-2 my-3 rounded-lg text-base` } key={ index }>
               <div>
                 <img alt="" width="30" height="30" className="inline pr-2" src={ category.icon } />
