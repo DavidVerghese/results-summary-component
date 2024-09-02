@@ -13,7 +13,7 @@ function Summary({ categoriesData }){
         <h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
         <div className="my-4">
           { categories && categories.length > 0 && categories.map((category, index)=>(
-            <div className={ `flex justify-between ${ category.backgroundColor } p-2 my-3 rounded-lg text-base`} key={ index }>
+            <div tabindex={2 + index}  className={ `flex justify-between ${ category.backgroundColor } p-2 my-3 rounded-lg text-base`} key={ index }>
               <div>
                 <img alt="" width="30" height="30" className="inline pr-2" src={ category.icon } />
                 <span className={ `${ category.textColor } font-bold` }>{  category.category }</span>
@@ -24,7 +24,7 @@ function Summary({ categoriesData }){
             </div>
           )) }
         </div>
-        <button className="bg-dark-gray-blue hover:bg-background-gradient text-white rounded-full items-center p-2 my-2">Continue</button>
+        <button tabindex="0" className="bg-dark-gray-blue hover:bg-background-gradient text-white rounded-full items-center p-2 my-2">Continue</button>
       </div>
     </div>
   )

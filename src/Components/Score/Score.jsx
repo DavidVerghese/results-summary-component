@@ -1,6 +1,6 @@
 function Score({score, rank, percentile}){
   return (
-    <div className="w-full sm:max-w-sm">
+    <div tabindex="1" className="w-full sm:max-w-sm">
       <div className="bg-background-gradient text-white shadow-2xl rounded-b-2xl sm:rounded-t-2xl flex flex-col items-center p-8">
         <h2 className="font-bold text-slate-300 text-xl my-2">Your result</h2>
         <div className="bg-circle-gradient text-white rounded-full h-25 w-25 text-center p-7 my-4">
