@@ -4,27 +4,31 @@
     "score": 80,
     "backgroundColor" : "bg-red-300/20",
     "textColor": "text-light-red",
-    "icon": "assets/images/icon-reaction.svg"
+    "icon": "assets/images/icon-reaction.svg",
+    "iconDescription": "lightning bolt"
   },
   {
     "category": "Memory",
     "score": 92,
     "backgroundColor" : "bg-yellow-200/20",
     "textColor": "text-orangey-yellow",
-    "icon": "assets/images/icon-memory.svg"
+    "icon": "assets/images/icon-memory.svg",
+    "iconDescription": "brain"
   },
   {
     "category": "Verbal",
     "score": 61,
     "backgroundColor" : "bg-green-200/25",
     "textColor": "text-green-teal",
-    "icon": "assets/images/icon-verbal.svg"
+    "icon": "assets/images/icon-verbal.svg",
+    "iconDescription": "speech bubble"
   },
   {
     "category": "Visual",
     "score": 72,
     "backgroundColor" : "bg-pale-blue",
     "textColor": "text-cobalt-blue",
-    "icon": "assets/images/icon-visual.svg"
+    "icon": "assets/images/icon-visual.svg",
+    "iconDescription": "eye"
   }
 ]
