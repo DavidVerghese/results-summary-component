@@ -8,7 +8,7 @@ function Summary({ categoriesData }){
   }, [categoriesData]);
 
   return (
-    <div className="sm:pl-5 pl-3 pr-3 w-full sm:max-w-sm">
+    <div role="complementary" className="sm:pl-5 pl-3 pr-3 w-full sm:max-w-sm">
       <div className="flex flex-col sm:pt-8">
         <h2 className="font-extrabold text-slate-700 text-xl my-2">Summary</h2>
         <div className="my-4">
